@@ -69,7 +69,7 @@ def main():
     #print rbm.W
     print("show result")
     size = len(test_source)
-    f=open('recomendation.txt','wa')
+    f=open('recomendation.txt','a')
     for i in range(size):
         #print("history of user watch movies")
 	f.write("history of user watch movies"+'\n')
